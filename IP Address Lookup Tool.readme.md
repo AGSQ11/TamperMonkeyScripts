@@ -34,7 +34,7 @@ A Tampermonkey userscript that adds a convenient context menu for quick IP addre
 3. Choose from:
    - "Query bgp.he.net" to look up the IP on Hurricane Electric's BGP Toolkit
    - "Query RIPEDb" to search the IP in the RIPE Database
-   - "Query RaDB" to look up the IP in the Routing Assets Database
+   - "Query RADb" to look up the IP in the Routing Assets Database
 4. The lookup will open in a new tab
 
 ## Supported Formats
