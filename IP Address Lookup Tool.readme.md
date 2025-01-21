@@ -9,7 +9,7 @@ A Tampermonkey userscript that adds a convenient context menu for quick IP addre
 - Provides quick access to common IP lookup services:
   - bgp.he.net
   - RIPE Database
-  - RaDB
+  - RADb
 - Works with both IPv4 and IPv6 addresses
 - Supports CIDR notation
 - Smart positioning to avoid screen edges and other popups
