@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         IP Address Lookup Tool
 // @namespace    http://tampermonkey.net/
-// @version      1.5
+// @version      1.6
 // @description  Provides lookup options for selected IP addresses and CIDR subnets
 // @author       AGSQ
 // @match        *://*/*
@@ -156,6 +156,10 @@
             {
                 text: 'Query RIPEDb',
                 url: `https://apps.db.ripe.net/db-web-ui/query?searchtext=${ip}`
+            },
+            {
+                text: 'Query RADb',
+                url: `https://www.radb.net/query?keywords=${ip}`
             }
         ];
 
