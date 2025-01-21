@@ -9,6 +9,7 @@ A Tampermonkey userscript that adds a convenient context menu for quick IP addre
 - Provides quick access to common IP lookup services:
   - bgp.he.net
   - RIPE Database
+  - RaDB
 - Works with both IPv4 and IPv6 addresses
 - Supports CIDR notation
 - Smart positioning to avoid screen edges and other popups
@@ -30,9 +31,10 @@ A Tampermonkey userscript that adds a convenient context menu for quick IP addre
 
 1. Select any IP address or CIDR subnet on any webpage
 2. A small context menu will appear next to your selection
-3. Choose either:
+3. Choose from:
    - "Query bgp.he.net" to look up the IP on Hurricane Electric's BGP Toolkit
    - "Query RIPEDb" to search the IP in the RIPE Database
+   - "Query RaDB" to look up the IP in the Routing Assets Database
 4. The lookup will open in a new tab
 
 ## Supported Formats
